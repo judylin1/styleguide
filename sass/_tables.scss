@@ -1,0 +1,20 @@
+table {
+  border: 1px solid #4F6D7A;
+  padding: 10px;
+  border-radius: 3px;
+  border-collapse: collapse;
+  width: 100%;
+    th {
+      font-weight: bold;
+      border-bottom: 2px solid #4F6D7A;
+      border-left: 1.5px solid #4F6D7A;
+      font-size: 1.2em;
+    }
+    td {
+      text-align: center;
+      border: 1.5px solid #4F6D7A;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: #CADEE6;
+    }
+}
